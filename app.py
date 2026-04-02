@@ -13,8 +13,8 @@ MODEL_PATH = os.path.join("models", "soil_model.pkl")
 # How to interpret model output.
 # Example: 1 = Fertile, 0 = Not Fertile
 LABEL_MAPPING = {
-    0: "Not Fertile",
-    1: "Fertile",
+    # 0: "Not Fertile",
+    # 1: "Fertile",
 }
 # ------------------------------------------------------
 
